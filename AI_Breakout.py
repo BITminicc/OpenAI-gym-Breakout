@@ -212,7 +212,7 @@ def main(test=False):
         episode_len += 1
 
         if test:
-            evaluate(step, policy_net, device, env_raw, n_actions, eps=0.05, num_episode=1, test=True)
+            evaluate(step, policy_net, device, env_raw, n_actions, eps=0.01, num_episode=1, test=True)
 
         # Perform one step of the optimization (on the target network)
         if step % POLICY_UPDATE == 0 and not test:
