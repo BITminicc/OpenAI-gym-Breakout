@@ -11,7 +11,7 @@
     使用pytorch和RL algorithm-DQN训练和测试的breakout游戏
   ·save*.*
   ------
-    保存的结果\<br>  
+    保存的结果  
     使用经过一定训练的模型(.pth)可以获得300+得分 
 HaHa
 ======
