@@ -183,7 +183,7 @@ def main(test=False):
         if test:
             print("Breakout-Test num: {} , rewards: {}".format(step + 1, (float(sum(e_rewards)) / float(num_episode))))
         else:
-            f = open("result.txt", 'a')
+            f = open("save.txt", 'a')
             f.write("%f, %d, %d\n" % (float(sum(e_rewards)) / float(num_episode), step, num_episode))
             f.close()
 
